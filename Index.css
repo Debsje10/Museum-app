@@ -1,5 +1,24 @@
 
-body{   
- background-color: #E2E4E3
-
-}
+  body {
+    background-color: black;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    border-top-left-radius: 30px;
+  }
+ 
+  main {
+    background: #E2E4E3;
+    width: 90%;
+    font-family:'Lato', sans-serif;
+    margin: auto;
+    border-radius: 20px;
+    border-color: black;
+   padding: 2rem 0;
+  }
+ 
+  h1 {
+    margin: 3rem 1rem 6rem 1rem;
+    color: #33444A;
+  }
