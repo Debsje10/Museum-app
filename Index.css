@@ -1,6 +1,6 @@
 
   body {
-    background-color: black;
+    background-color:#C7C7C7;
     font-family:'Lato', sans-serif;
     text-align: center;
     border-radius: 5px;
@@ -14,11 +14,22 @@
     font-family:'Lato', sans-serif;
     margin: auto;
     border-radius: 20px;
-    border-color: black;
-   padding: 2rem 0;
+   padding: 20px;
   }
  
   h1 {
     margin: 3rem 1rem 6rem 1rem;
     color: #33444A;
   }
+
+  .artObject {
+    max-width: 800%;
+    max-height: 40rem;
+    margin: 1rem;
+}
+  #gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
