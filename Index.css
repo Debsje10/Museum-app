@@ -1,57 +1,60 @@
-
-  body {
-    background-color:#C7C7C7;
-    font-family:'Lato', sans-serif;
+body {
+    background-color: #C7C7C7;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     margin: auto;
     padding: 4rem;
     padding-top: 3rem;
     max-width: auto;
-  }
- 
-  main {
+}
+
+main {
     background: #E2E4E3;
     width: 90 rem;
-    font-family:'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: auto;
     border-radius: 20px;
     padding: 50px;
-  }
- 
-  h1 {
+}
+
+h1 {
     margin: 3rem 1rem 6rem 1rem;
     color: #33444A;
     font-size: 40px;
-    font-family:'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
-  }
+}
 
-  h2 {
-      font-size:24px;
-      padding-bottom: 14px;
+h2 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+
+.col {
+        display: flex;
+        justify-content: flex-end;
 
 
-  }
 
-  .artObject {
+    }
+
+
+.artObject {
     max-width: 800%;
     margin: 1rem;
     padding: 1px;
-    
-    border: 8px solid #C7C7C7;
+    border: 8px solid rgb(181, 193, 204);
     border-radius: 20px;
-    
-      }
-    
-    
+
 }
-  
+
+
 #gallery {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-items: flex-start;
-    
-    
+
+
 
 }
