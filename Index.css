@@ -3,33 +3,53 @@
     background-color:#C7C7C7;
     font-family:'Lato', sans-serif;
     text-align: center;
-    border-radius: 5px;
-    border-color: black;
-    border-top-left-radius: 30px;
+    margin: auto;
+    padding: 4rem;
+    padding-top: 3rem;
+    max-width: auto;
   }
  
   main {
     background: #E2E4E3;
-    width: 90%;
+    width: 90 rem;
     font-family:'Lato', sans-serif;
     margin: auto;
     border-radius: 20px;
-   padding: 20px;
+    padding: 50px;
   }
  
   h1 {
     margin: 3rem 1rem 6rem 1rem;
     color: #33444A;
+    font-size: 40px;
+    font-family:'Lato', sans-serif;
+
+  }
+
+  h2 {
+      font-size:24px;
+      padding-bottom: 14px;
+
+
   }
 
   .artObject {
     max-width: 800%;
-    max-height: 40rem;
-    margin: 1rem;
+    margin: 4px;
+    padding: 3px;
+    border-width: 20px;
+    
+      }
+    
+    
 }
-  #gallery {
+  
+#gallery {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-items: flex-start;
+    
+    
+
 }
