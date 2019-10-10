@@ -1,33 +1,52 @@
-body { 
-   background: #C7C7C7;
-   color: #33444A;
-   font-family: 'Lato', sans-serif;
-}
 
-.main { 
-   width: 90%;
-   margin: auto;
-   margin-top: 3rem;
-   padding-bottom: 10rem;
-   background: #E2E4E3;  
+
+
+body { 
+   background: rgb(20, 56, 73);
+   color: #33444A;
+   font-family: 'Work Sans', sans-serif;
+   
 }
 
 .header { 
    width: 90%;
    margin: auto;
-   padding-top: 10rem;
+   padding-top: 5rem;
    margin-bottom: 1rem;
 }
 
+.navbar-nav {
+   padding-left: 6rem;
+}
+
+.navbar-text{
+   padding-right: 8rem;
+}
+        
 .gallery {
-   padding: 2rem;
+   padding: 1rem;
 }
 
 .art-object {
-   height: 200px;
-   width: 200px;
+   height: 180px;
+   width: 190px;
    margin: 2rem;
-   border: 0.5rem solid rgb(120, 164, 206);
+   border: 0.2rem solid rgb(23, 59, 100);
    border-radius: 20%;
+}
+
+.h1 {
+   text-align: left
+}
+
+.h2{
+   text-align: left;
+}
+
+.jumbotron.jumbotron-fluid {
+   width: 90%;
+   margin: auto;
+   background: lightgrey; 
+   border-radius: 2%;
 }
 
