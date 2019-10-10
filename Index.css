@@ -1,35 +1,52 @@
 
-  body {
-    background-color:#C7C7C7;
-    font-family:'Lato', sans-serif;
-    text-align: center;
-    border-radius: 5px;
-    border-color: black;
-    border-top-left-radius: 30px;
-  }
- 
-  main {
-    background: #E2E4E3;
-    width: 90%;
-    font-family:'Lato', sans-serif;
-    margin: auto;
-    border-radius: 20px;
-   padding: 20px;
-  }
- 
-  h1 {
-    margin: 3rem 1rem 6rem 1rem;
-    color: #33444A;
-  }
 
-  .artObject {
-    max-width: 800%;
-    max-height: 40rem;
-    margin: 1rem;
+
+body { 
+   background: rgb(20, 56, 73);
+   color: #33444A;
+   font-family: 'Work Sans', sans-serif;
+   
 }
-  #gallery {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+
+.header { 
+   width: 90%;
+   margin: auto;
+   padding-top: 5rem;
+   margin-bottom: 1rem;
 }
+
+.navbar-nav {
+   padding-left: 6rem;
+}
+
+.navbar-text{
+   padding-right: 8rem;
+}
+        
+.gallery {
+   padding: 1rem;
+}
+
+.art-object {
+   height: 180px;
+   width: 190px;
+   margin: 2rem;
+   border: 0.2rem solid rgb(23, 59, 100);
+   border-radius: 20%;
+}
+
+.h1 {
+   text-align: left
+}
+
+.h2{
+   text-align: left;
+}
+
+.jumbotron.jumbotron-fluid {
+   width: 90%;
+   margin: auto;
+   background: lightgrey; 
+   border-radius: 2%;
+}
+
