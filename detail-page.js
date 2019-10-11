@@ -19,7 +19,35 @@ function submitComment()
 
    inputEvent.value = null
     textArea.value = null
+
+    function doesNotPassAllValidaions(name, msg) {
+
+        if (!name) {
+            alert("Fill out your name")
+           
+        }
+        if (!msg)
+            alert("no empty message!")
+           
+        }
+        
+       if (!name || !msg) {
+       alert("No blank messages!");
+       return true;
+    }
+
+
+    if (msg.length > 80) {
+        alert("No messages longer than 80 characters!");
+        return true;
+    }
+
+    return false
 }
+
+
+
+
 
 
 
