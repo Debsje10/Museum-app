@@ -1,6 +1,4 @@
 
-
-
 body { 
    background: rgb(20, 56, 73);
    color: #33444A;
@@ -15,8 +13,12 @@ body {
    margin-bottom: 1rem;
 }
 
-.navbar-nav {
-   padding-left: 6rem;
+.h2, h2 {
+   font-size: 1.4rem;
+}
+
+.h3, h3 {
+   font-size: 1rem;
 }
 
 .navbar-text{
@@ -35,13 +37,8 @@ body {
    border-radius: 20%;
 }
 
-.h1 {
-   text-align: left
-}
 
-.h2{
-   text-align: left;
-}
+
 
 .jumbotron.jumbotron-fluid {
    width: 90%;
