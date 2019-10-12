@@ -21,11 +21,27 @@ body {
 }
 
 .art-object {
-   height: 180px;
-   width: 190px;
+   height: 100px;
+   width: 100px;
+   background:rgb(23, 59, 100);
    margin: 2rem;
    border: 0.2rem solid rgb(23, 59, 100);
    border-radius: 20%;
+
+  /* HOVER OFF */
+   -webkit-transition: padding 1s;
+}
+
+.art-object:hover {
+   padding: 10px;
+   border-radius: 10px;
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 1s;
+                        padding:4px;
+                        border-color:#3080C6;
+                        
+   
 }
 
 .h1 {
@@ -35,6 +51,9 @@ body {
 .h2{
    text-align: left;
 }
+
+
+
 
 .jumbotron.jumbotron-fluid {
    width: 90%;
