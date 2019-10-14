@@ -1,35 +1,118 @@
 
-  body {
-    background-color:#C7C7C7;
-    font-family:'Lato', sans-serif;
-    text-align: center;
-    border-radius: 5px;
-    border-color: black;
-    border-top-left-radius: 30px;
-  }
- 
-  main {
-    background: #E2E4E3;
-    width: 90%;
-    font-family:'Lato', sans-serif;
-    margin: auto;
-    border-radius: 20px;
-   padding: 20px;
-  }
- 
-  h1 {
-    margin: 3rem 1rem 6rem 1rem;
-    color: #33444A;
-  }
 
-  .artObject {
-    max-width: 800%;
-    max-height: 40rem;
-    margin: 1rem;
+
+body { 
+   background: rgb(20, 56, 73);
+   color: #33444A;
+   font-family: 'Work Sans', sans-serif;
+   
 }
-  #gallery {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+
+.header { 
+   width: 90%;
+   margin: auto;
+   padding-top: 5rem;
+   margin-bottom: 1rem;
 }
+
+        
+.gallery {
+   padding: 1rem;
+}
+
+.art-object {
+   height: 100px;
+   width: 100px;
+   background:rgb(23, 59, 100);
+   margin: 2rem;
+   border: 0.2rem solid rgb(23, 59, 100);
+   border-radius: 20%;
+
+  /* HOVER OFF */
+   -webkit-transition: padding 1s;
+}
+
+.art-object:hover {
+   padding: 10px;
+   border-radius: 10px;
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 1s;
+                        padding:4px;
+                        
+                        
+   
+}
+
+.h1 {
+   text-align: left
+}
+
+.h2{
+   text-align: left;
+}
+
+h3, h3 {
+   font-size:10px;
+}
+p {
+   font-size:13px;
+}
+
+section {
+   padding-top: 80px;
+   }
+
+
+
+.jumbotron.jumbotron-fluid {
+   width: 90%;
+   margin: auto;
+   background: lightgrey; 
+   border-radius: 2%;
+}
+
+label {
+   font-size: 6x;
+}
+
+input[type=text] {
+   width: 102px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   color:#4C4461;
+   background-color: white;
+   background-image: url('searchicon.png');
+   background-position: 10px 10px; 
+   background-repeat: no-repeat;
+   padding: 1px 20px 2px 20px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+ }
+ 
+ input[type=text]:focus {
+   width: 20%;
+ }
+
+ 
+ textarea {
+      width: 222px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      color:#4C4461;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 1px 20px 2px 20px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
+    
+    textarea:focus {
+      width: 30%;    
+    }
