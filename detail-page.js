@@ -8,7 +8,7 @@ function submitComment()
     let h3 = document.createElement('h3')
     let p = document.createElement('p')
 
-    var newMsg = msg.replace(/fuck/g,'love').replace(/jij/g,'ik').replace(/kuthoer/g,'lieverd')
+    var newMsg = msg.replace(/fuck/g,'love').replace(/jij/g,'ik').replace(/kuthoer/g,'lieverd').replace(/kut/g,'lief')
     
 
     h3.innerHTML = `${name} said:`

@@ -39,7 +39,7 @@ body {
   /* HOVER ON */
    -webkit-transition: border-radius 1s;
                         padding:4px;
-                        border-color:#3080C6;
+                        
                         
    
 }
@@ -52,6 +52,16 @@ body {
    text-align: left;
 }
 
+h3, h3 {
+   font-size:10px;
+}
+p {
+   font-size:13px;
+}
+
+section {
+   padding-top: 80px;
+   }
 
 
 
